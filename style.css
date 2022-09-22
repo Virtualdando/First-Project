@@ -1,10 +1,9 @@
 body * {
     box-sizing: border-box;
+    font-family: 'roboto', 'raleway';
 }
 
 header {
-    border: 5px solid firebrick;
-
     font-size: 24px;
     color: #f9faf8;
     background: #1f2937;
