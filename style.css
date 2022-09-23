@@ -1,4 +1,5 @@
-html {
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -69,12 +70,14 @@ header {
 }
 
 .signup {
-    font-size: 24px;
     display: block;
-    margin: 12px 0 0 0;
-    padding: 0 10px 0 10px;
-    background-color: #2266ff;
+    color: #e5e7eb;
+    background-color: #3882f6;
     border-radius: 10px;
+    padding: 7px 14px 7px 14px;
+    margin-top: 10px;
+    border-style: none;
+    border: 1px solid #e5e7eb;
 }
 
 .first-img>img {
@@ -180,7 +183,21 @@ div.second-main {
     color: #e5e7eb;
     background-color: #3882f6;
     border-radius: 10px;
-    padding: 7px;
+    padding: 7px 14px 7px 14px;
     border-style: none;
     border: 1px solid #e5e7eb;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>p {
+    font-size: 18px;
+    color: #f9faf8;
+
 }
